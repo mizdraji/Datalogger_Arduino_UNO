@@ -10,7 +10,7 @@
 #define chipSelect 10
 
 #define SerialSpeed 9600
-#define interval 10000
+#define interval 60000
 #define numLecturas 10      //Numero de lecturas para promediar
 
 uint32_t prevMillis = 0;
@@ -70,7 +70,7 @@ void setup(){
 }
 
 void loop(){
-  if (millis() - prevMillis > interval) {             //entra 1 vez cada 10 segundos
+  if (millis() - prevMillis > interval) {             //entra 1 vez cada 60 segundos
     prevMillis = millis();  
 
     // Lee el voltaje en el pin A0
@@ -124,7 +124,7 @@ void loop(){
   // Función para generar un nuevo nombre de archivo
   String generarNombreArchivo() {
     uint8_t numeroArchivo = 1; // Comienza con el número 1
-    String nombreBase = "datalog"; // Nombre base del archivo
+    String nombreBase = "sleeplg"; // Nombre base del archivo            //límite de 8 caracteres para el nombre en formato FAT(8.3)
     String extension = ".csv"; // Extensión del archivo
 
     // Busca el siguiente nombre disponible
