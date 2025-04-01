@@ -10,7 +10,7 @@
 #define chipSelect 10
 
 #define SerialSpeed 9600
-#define interval 60000
+#define interval 60000      //1 minuto
 #define numLecturas 10      //Numero de lecturas para promediar
 
 uint32_t prevMillis = 0;
