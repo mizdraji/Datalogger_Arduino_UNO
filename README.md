@@ -98,6 +98,9 @@ Mensajes habituales:
 | `Error al crear el archivo CSV` | SD llena, solo lectura o nombre no válido |
 | `Error al abrir el archivo CSV` | SD retirada durante el funcionamiento o corrupción |
 
-## Licencia
+## Autor
 
-Consultar el repositorio o el autor del proyecto para condiciones de uso.
+**Desarrollado por**: [German Mizdraji](https://github.com/mizdraji)  
+**Colaborador**: [Hugo Ferrari](https://github.com/hugoferrari)  
+**Área y Organización**: Técnica - [Macro Intell S.A.](https://github.com/Macro-Intell-S-A)  
+**Fecha**: Mayo de 2026
